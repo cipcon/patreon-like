@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My portofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="header" role="region">
+      <nav id="nav-bar">
+          <a class="logo" href="#">
+            <img src="https://cdn4.iconfinder.com/data/icons/bubble-gradient-social-media-1/200/patreon-512.png" id="header-img" alt="company logo">
+          </a> 
+          <a class="nav-link" href="#info">Info</a>
+          <a class="nav-link" href="#tiers">Tiers</a>
+          <a class="nav-link" href="#recent">Recent</a>
+      </nav>
+    </header>
+    <main role="region" id="tiers">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_1280.jpg" class="cover_photo" alt="a cat staying on a branch with the moon in the background">
+      </div>
+      <div class="main">
+        <img src="https://cdn2.iconfinder.com/data/icons/cats-fast-food/1000/cat_fast_food_snack_lunch_cute_BURGER-512.png" alt="a cat like a burger" class="profile-picture">
+        <h1>Ciprian Constantin</h1>
+        <ul class="member-posts">
+          <li>1 member</li>
+          <li>&#9827</li>
+          <li>3 posts</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="patreon">
+        <h2>Choose to be my patreon</h1>
+        <div class="tiers">
+          <div class="tier">Gold Whale<img src="https://t4.ftcdn.net/jpg/00/62/81/33/360_F_62813316_QRXhuI1lWDcpQbJG2iZvDftGkOYrDAbU.jpg"></div>
+          <div class="tier">Moon Baby<img src="https://media.istockphoto.com/id/94923957/photo/cat-in-glasses.jpg?s=612x612&w=0&k=20&c=3ANp_Lsqi4LckBvA0btQ7gUYd3Cz9ITKcBT3pJU-4mw="></div>
+          <div class="tier">Moon Moet<img src="https://t3.ftcdn.net/jpg/01/61/92/08/360_F_161920891_NPxLoz6auG3lodFH3LRRG9yevXssy1CB.jpg"></div>
+        </div>
+      </div>
+      <form class="tier-type" method="post" action="https://www.freecodecamp.com/email-submit" id="form">
+        <fieldset>
+          <legend>Choose Tier</legend>
+          <label for="gold-whale"><input id="gold-whale" type="radio" name="tier-type"/>Gold Whale</label>
+          <label for="moon-baby"><input id="moon-baby" type="radio" name="tier-type">Moon Baby</label>
+          <label for="moon-baby-moet"><input id="moon-baby-moet" type="radio" name="tier-type">Moon Baby Moet</label>
+        </fieldset>
+        <fieldset class="email_submit">
+          <label for="email" class="form-label">
+            <input id="email" class="form-control" type="email" name="email" placeholder="name@example.com">
+
+          <input id="submit" type="submit">
+        </fieldset>
+      </form>
+
+    
+    <hr>
+    <div role="region" id="recent">
+    <div role="region" id="info" class="info">
+        <h3>Infos</h3>
+        <p>Hi, I am Ciprian, 28 years old, pursuing a career in front-end development. Lorem ipsum dolor sit amet, populo volumus ne vix. Mei impetus ceteros assentior at. Et per dicat cotidieque, ut mel labores assueverit. Case aliquid est ne, discere appetere interpretaris vis no. Agam vidisse elaboraret id pro, usu cu fastidii luptatum explicari. No has aliquip sanctus dissentiunt.
+
+Et nostro elaboraret his, cu quo dolorem recteque. No quodsi posidonium pro, ius ut amet oratio. Id mutat luptatum definiebas vix. In pro nostrum suscipit, fuisset facilisi scripserit nam id, at sit omnis audire.</p>
+        <p>If you want, you can follow me on the next channels</p>
+        <a href="https://www.facebook.com/"><img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/facebook-512.png"></a>
+        <a href="https://twitter.com/"><img src="https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-256.png"></a>
+        <a href="https://github.com/cipcon?tab=repositories"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-256.png"></a>
+        <div class="video">
+          <iframe src="https://www.youtube.com/embed/TReCLbmhlMs" allowfullscreen id="video"></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </main>
+    <footer>
+      <div class="address">
+        <a>Germany, Bonn</a>
+        <a>© 2023 Constantin Ciprian</a>
+      </div>
+    </footer>
+        
+  </body>
+</html>
